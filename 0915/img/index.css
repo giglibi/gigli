@@ -1,0 +1,13 @@
+@media screen and (max-device-width: 480px) { 
+#divMain{ 
+float: none; 
+width:auto; 
+} 
+#divSidebar { 
+visibility:hidden; 
+} 
+} 
+img { max-width: 100%;}
+img, object { max-width: 100%;}
+img { -ms-interpolation-mode: bicubic; }
+.main { float: right; width: 70%; } .leftBar { float: left; width: 25%; } 
