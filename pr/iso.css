@@ -1,0 +1,207 @@
+ #m_wrapper {
+	            top: 43px;
+	            width: 100%;
+	            height: 100%;
+	            float: left;
+	            position: relative;
+	            z-index: 1;
+	            overflow: hidden;
+            }
+
+            #m_scroller {
+	            width: 100%;
+	            height: 100%;
+	            float: left;
+	            padding: 0;
+            }
+
+            #m_scroller ul {
+	            list-style: none;
+	            display: block;
+	            float: left;
+	            height: 100%;
+	            padding: 0;
+	            margin: 0;
+	            text-align: left;
+            }
+
+            #m_scroller li {
+	            -webkit-box-sizing: border-box;
+	            -moz-box-sizing: border-box;
+	            -o-box-sizing: border-box;
+	            box-sizing: border-box;
+	            display: block;
+	            float: left;
+	            height: 100%;
+	            text-align: center;
+	            font-size: 14px;
+            }
+
+            .m_index {
+	            font-size: 16px !important;
+	            overflow: hidden;
+	            text-overflow: ellipsis;
+	            white-space: nowrap;
+            }
+
+            .m_index .t {
+	            padding-left: 10px;
+	            padding-right: 10px;
+            }
+
+            #m_scroller li .app_table {
+	            margin: 0px auto;
+	            width: 95%;
+            }
+
+            #m_scroller li .app_table td {
+	            height: 70px;
+	            padding: 10px 0px 0px 0px;
+            }
+
+            #m_scroller li .app_table td a {
+	            position: relative;
+	            text-decoration: none;
+            }
+
+            #m_scroller li .app_table td i {
+	            min-width: 20px;
+	            height: 20px;
+	            line-height: 20px;
+	            position: absolute;
+	            font-style: normal;
+	            top: -6px;
+	            right: -6px;
+	            color: #FFFFFF;
+	            background-color: #F35618;
+	            border: 2px solid #FFFFFF;
+	            box-shadow: 0px 1px 1px 0px #999999;
+	            -moz-box-shadow: 0px 1px 0px 0px #000000;
+	            -webkit-border-shadow: 0px 1px 0px 0px #000000;
+	            border-radius: 11px;
+	            font-size: 16px;
+	            text-align: center;
+	            padding: 0px 2px;
+            }
+
+            #m_scroller li .app_table td em {
+	            display: block;
+	            font-size: 10pt;
+	            font-style: normal;
+	            font-weight: normal;
+	            padding: 5px 0px 0px 0px;
+	            text-shadow: 1px 1px 0px #ffffff;
+	            text-align: center;
+            }
+
+            #m_scroller li .app_table td .app {
+	            display: block;
+	            width: 60px;
+	            height: 60px;
+	            background-image: url("/pda/style/images/pda_icons_new.jpg");
+	            background-repeat: none;
+	            margin: 0px auto;
+	            border-radius: 0.5em 0.5em 0.5em 0.5em;
+	            background-size: 240px 240px;
+	            -o-background-size: 240px 240px;
+	            -webkit-background-size: 240px 240px;
+            }
+
+            #m_scroller li .app_sms {
+	            background-position: 0px 0px;
+            }
+
+            #m_scroller li .app_email {
+	            background-position: -60px 0px;
+            }
+
+            #m_scroller li .app_notify {
+	            background-position: -120px 0px;
+            }
+
+            #m_scroller li .app_news {
+	            background-position: -180px 0px;
+            }
+
+            #m_scroller li .app_calendar {
+	            background-position: 0px -60px;
+            }
+
+            #m_scroller li .app_diary {
+	            background-position: -60px -60px;
+            }
+
+            #m_scroller li .app_folder {
+	            background-position: -120px -60px;
+            }
+
+            #m_scroller li .app_workflow {
+	            background-position: -180px -60px;
+            }
+
+            #m_scroller li .app_query {
+	            background-position: 0px -120px;
+            }
+
+            #m_scroller li .app_address {
+	            background-position: -60px -120px;
+            }
+
+            #m_scroller li .app_zipcode {
+	            background-position: -120px -120px;
+            }
+
+            #m_scroller li .app_weather {
+	            background-position: -180px -120px;
+            }
+
+            /*#m_scroller li .app_message{background-position:0px -180px;}*/
+            #m_scroller li .app_settings {
+	            background-position: -60px -180px;
+            }
+
+            #m_nav {
+	            position: absolute;
+	            z-index: 2;
+	            left: 50%;
+	            margin-left: -10px;
+	            width: 40px;
+	            height: 8px;
+	            padding: 0;
+	            text-align: center;
+	            display: none;
+            }
+
+            #m_nav #pagebar {
+	            display: block;
+	            height: 8px;
+	            margin: 0px auto;
+	            padding: 0;
+            }
+
+            #m_nav #pagebar li {
+	            display: block;
+	            float: left;
+	            list-style: none;
+	            padding: 0;
+	            margin: 0;
+	            text-indent: -9999em;
+	            width: 8px;
+	            height: 8px;
+	            -webkit-border-radius: 4px;
+	            -moz-border-radius: 4px;
+	            -o-border-radius: 4px;
+	            border-radius: 4px;
+	            background: #ddd;
+	            overflow: hidden;
+	            margin-right: 4px;
+	            cursor: pointer;
+            }
+
+            #m_nav #pagebar li.active {
+	            background: #0B7CC4;
+            }
+
+            #m_nav #pagebar li:last-child {
+	            margin: 0;
+            }
